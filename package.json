@@ -1,12 +1,15 @@
 {
   "name": "Universal Pokedex",
   "version": "1.0.0",
-  "description": "UnOfficial Universal Pokedex site",
-  "main": "index. js",
+  "description": "A searchable universal Pokémon encyclopedia and Pokédex.",
+  "main": "index.js",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "serve": "vitepress serve docs"
+    "serve": "vitepress serve docs",
+    "test": "node --test tests/*.test.mjs",
+    "pokedex:update": "node scripts/update-pokedex.mjs",
+    "pokedex:validate": "node scripts/validate-pokedex.mjs"
   },
   "author": "theCrazy8",
   "license": "CC-BY-NC-SA-4.0",
@@ -26,11 +29,11 @@
     "@nolebase/vitepress-plugin-inline-link-preview": "^2.18.2",
     "@supabase/supabase-js": "^2.90.1",
     "markdown-it-abbr": "^2.0.0",
-    "@traptitech/markdown-it-spoiler":"^1.1.6",
+    "@traptitech/markdown-it-spoiler": "^1.1.6",
     "markdown-it-deflist": "^3.0.0",
     "markdown-it-footnote": "^4.0.0",
     "markdown-it-ins": "^4.0.0",
-    "markdown-it-mark": "^4.0.0",
+    "markdown-it-mark": "^2.0.0",
     "markdown-it-sub": "^2.0.0",
     "markdown-it-sup": "^2.0.0",
     "mermaid": "^11.12.3",
@@ -44,5 +47,6 @@
     "vitepress-plugin-mermaid": "^2.0.17",
     "vitepress-plugin-nprogress": "^0.1.1",
     "vitepress-plugin-tabs": "^0.7.3"
-  }
+  },
+  "type": "module"
 }
