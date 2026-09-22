@@ -39,12 +39,12 @@ export default withMermaid(defineConfig({
       md.use(InlineLinkPreviewElementTransform)
     }
   },
-  title: "SplatoonDimensions",
-  description: "The SplatoonDimensions site.",
-  base: "/SplatoonDimensions/",
+  title: "UniversalPokedex",
+  description: "The UniversalPokedex site.",
+  base: "/UniversalPokedex/",
   themeConfig: {
     editLink: {
-      pattern: 'https://github.com/TheCrazy8/SplatoonDimensions/edit/main/docs/:path',
+      pattern: 'https://github.com/TheCrazy8/UniversalPokedex/edit/main/docs/:path',
       text: '✏️ Edit this page'
     },
 
@@ -54,7 +54,7 @@ export default withMermaid(defineConfig({
     },
 
     externalLinkIcon: false,
-    siteTitle: "SplatoonDimensions",
+    siteTitle: "UniversalPokedex",
     footer: {
       message: "Released under the CC BY-NC-ND 4.0 License.",
       copyright: "Copyright © 2025-present TheCrazy8",
@@ -97,19 +97,19 @@ export default withMermaid(defineConfig({
     },
     
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/TheCrazy8/SplatoonDimensions' }
+      { icon: 'github', link: 'https://github.com/TheCrazy8/UniversalPokedex' }
     ],
   },
   
   head: [
-    ['link', { rel: 'icon', type: 'image/x-icon', href: '/SplatoonDimensions/favicon.ico' }],
-    ['link', { rel: 'apple-touch-icon', href: '/SplatoonDimensions/icon-192x192.png' }],
+    ['link', { rel: 'icon', type: 'image/x-icon', href: '/UniversalPokedex/favicon.ico' }],
+    ['link', { rel: 'apple-touch-icon', href: '/UniversalPokedex/icon-192x192.png' }],
     ['meta', { name: 'theme-color', content: '#ff4500' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name:  'apple-mobile-web-app-status-bar-style', content: 'black-translucent' }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:site_name', content: 'SplatoonDimensions' }],
-    ['meta', { property: 'og:image', content: '/SplatoonDimensions/og-image.png' }],
+    ['meta', { property: 'og:site_name', content: 'UniversalPokedex' }],
+    ['meta', { property: 'og:image', content: '/UniversalPokedex/og-image.png' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
   ],
   
@@ -117,7 +117,7 @@ export default withMermaid(defineConfig({
   vite: {
     plugins: [
       GitChangelog({
-        repoURL: () => 'https://github.com/TheCrazy8/SplatoonDimensions',
+        repoURL: () => 'https://github.com/TheCrazy8/UniversalPokedex',
       }),
       GitChangelogMarkdownSection(),
       groupIconVitePlugin(),
@@ -126,67 +126,67 @@ export default withMermaid(defineConfig({
         registerType: 'autoUpdate',
         includeAssets: ['favicon.ico', '*.png'],
         manifest: {
-          name: 'SplatoonDimensions',
-          short_name: 'SplatoonDimensions',
-          description: 'SplatoonDimensions - Official documentation and resources',
+          name: 'UniversalPokedex',
+          short_name: 'UniversalPokedex',
+          description: 'UniversalPokedex - UnOfficial documentation and resources',
           theme_color:  '#ff4500',
           background_color: '#ffffff',
           display: 'standalone',
-          scope: '/SplatoonDimensions/',
-          start_url:  '/SplatoonDimensions/',
+          scope: '/UniversalPokedex/',
+          start_url:  '/UniversalPokedex/',
           icons: [
             {
-              src: '/SplatoonDimensions/icon-48x48.png',
+              src: '/UniversalPokedex/icon-48x48.png',
               sizes: '48x48',
               type: 'image/png'
             },
             {
-              src: '/SplatoonDimensions/icon-72x72.png',
+              src: '/UniversalPokedex/icon-72x72.png',
               sizes: '72x72',
               type: 'image/png'
             },
             {
-              src: '/SplatoonDimensions/icon-96x96.png',
+              src: '/UniversalPokedex/icon-96x96.png',
               sizes: '96x96',
               type: 'image/png'
             },
             {
-              src: '/SplatoonDimensions/icon-128x128.png',
+              src: '/UniversalPokedex/icon-128x128.png',
               sizes: '128x128',
               type: 'image/png'
             },
             {
-              src: '/SplatoonDimensions/icon-144x144.png',
+              src: '/UniversalPokedex/icon-144x144.png',
               sizes: '144x144',
               type: 'image/png'
             },
             {
-              src: '/SplatoonDimensions/icon-152x152.png',
+              src: '/UniversalPokedex/icon-152x152.png',
               sizes: '152x152',
               type: 'image/png'
             },
             {
-              src: '/SplatoonDimensions/icon-192x192.png',
+              src: '/UniversalPokedex/icon-192x192.png',
               sizes: '192x192',
               type: 'image/png'
             },
             {
-              src: '/SplatoonDimensions/icon-256x256.png',
+              src: '/UniversalPokedex/icon-256x256.png',
               sizes: '256x256',
               type: 'image/png'
             },
             {
-              src: '/SplatoonDimensions/icon-384x384.png',
+              src: '/UniversalPokedex/icon-384x384.png',
               sizes: '384x384',
               type: 'image/png'
             },
             {
-              src: '/SplatoonDimensions/icon-512x512.png',
+              src: '/UniversalPokedex/icon-512x512.png',
               sizes: '512x512',
               type: 'image/png'
             },
             {
-              src: '/SplatoonDimensions/icon-512x512.png',
+              src: '/UniversalPokedex/icon-512x512.png',
               sizes: '512x512',
               type: 'image/png',
               purpose: 'any maskable'
@@ -196,37 +196,37 @@ export default withMermaid(defineConfig({
             {
               name: 'BrightOS Web',
               short_name: 'Web Interface',
-              url: '/SplatoonDimensions/brightos-web',
+              url: '/UniversalPokedex/brightos-web',
               description: 'Run BrightOS in browser',
-              icons: [{ src: '/SplatoonDimensions/icon-192x192.png', sizes: '192x192' }]
+              icons: [{ src: '/UniversalPokedex/icon-192x192.png', sizes: '192x192' }]
             },
             {
               name: 'Tutorials',
               short_name: 'Tutorials',
-              url: '/SplatoonDimensions/tutorials',
+              url: '/UniversalPokedex/tutorials',
               description: 'Step-by-step guides',
-              icons: [{ src: '/SplatoonDimensions/icon-192x192.png', sizes: '192x192' }]
+              icons: [{ src: '/UniversalPokedex/icon-192x192.png', sizes: '192x192' }]
             },
             {
               name: 'Examples',
               short_name: 'Examples',
-              url: '/SplatoonDimensions/examples',
+              url: '/UniversalPokedex/examples',
               description:  'View example scripts',
-              icons: [{ src: '/SplatoonDimensions/icon-192x192.png', sizes: '192x192' }]
+              icons: [{ src: '/UniversalPokedex/icon-192x192.png', sizes: '192x192' }]
             },
             {
               name: 'Downloads',
               short_name: 'Downloads',
-              url: '/SplatoonDimensions/downloads',
+              url: '/UniversalPokedex/downloads',
               description: 'Download plugins and scripts',
-              icons: [{ src: '/SplatoonDimensions/icon-192x192.png', sizes: '192x192' }]
+              icons: [{ src: '/UniversalPokedex/icon-192x192.png', sizes: '192x192' }]
             },
             {
               name: 'Blog',
               short_name: 'Blog',
-              url: '/SplatoonDimensions/blog/',
+              url: '/UniversalPokedex/blog/',
               description: 'Read latest updates',
-              icons: [{ src:  '/SplatoonDimensions/icon-192x192.png', sizes: '192x192' }]
+              icons: [{ src:  '/UniversalPokedex/icon-192x192.png', sizes: '192x192' }]
             }
           ]
         },
