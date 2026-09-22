@@ -131,7 +131,7 @@ export default {
     imageViewer(route);
     codeblocksFold({ route, frontmatter });
     giscusTalk({
-      repo: 'TheCrazy8/SplatoonDimensions',
+      repo: 'TheCrazy8/UniversalPokedex',
       repoId: 'R_kgDOTuCp2g',           // Get from https://giscus.app/
       category: 'General',
       categoryId: 'DIC_kwDOTuCp2s4DCrY6',    // Get from https://giscus.app/
