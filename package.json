@@ -1,7 +1,7 @@
 {
-  "name": "SplatoonDimensions",
+  "name": "Universal Pokedex",
   "version": "1.0.0",
-  "description": "Official SplatoonDimensions site",
+  "description": "UnOfficial Universal Pokedex site",
   "main": "index. js",
   "scripts": {
     "dev": "vitepress dev docs",
